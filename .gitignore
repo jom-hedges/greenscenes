@@ -35,3 +35,6 @@ greenscenes-*.tar
 npm-debug.log
 /assets/node_modules/
 
+# ignore larger video and potential file sizes
+*.mp4
+*.mov
