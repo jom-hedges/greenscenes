@@ -38,3 +38,6 @@ npm-debug.log
 # ignore larger video and potential file sizes
 *.mp4
 *.mov
+
+# Ignore environment variables
+.env
