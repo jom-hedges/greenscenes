@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "test_generate_stream_url",
+			"type": "shell",
+			"command": "iex -S mix",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}

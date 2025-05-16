@@ -6,7 +6,7 @@ defmodule Greenscenes.ParkLive do
   @video_file ":s3//park-videos" # this should be the actual S3 path 
 
   def mount(_params, _session, socket) do
-    case Media.get_stream_url(@video_file) do
+    case Media.generate_stream_url(@video_file) do
       {:ok, url} -> 
         {:ok, assign(socket, video_url: url)}
 

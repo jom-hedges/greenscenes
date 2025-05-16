@@ -67,7 +67,7 @@ config :ex_aws,
   secret_access_key: [{:system, "AWS_SECRET_ACCESS_KEY"}, :instance_role],
   region: "us-east-2"
 
-config :ex_aws, s3,
+config :ex_aws, :s3,
   scheme: "https://",
   host: "s3.amazonaws.com",
   region: "us-east-2"
